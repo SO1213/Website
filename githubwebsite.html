@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SO1213 | Homepage</title>
+    <meta property="og:title" content="SO1213 Homepage">
+    <meta name="description" content="Welcome to SO1213's GitHub profile homepage.">
+    <link rel="stylesheet" href="githubStyle.css">
+    <script src="githubScript.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">SO1213</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li class="dropdown">
+                <a href="#projects" class="dropbtn">Projects ▾</a>
+                <div class="dropdown-content">
+                    <a href="#">Project 1</a>
+                    <a href="#">Project 2</a>
+                    <a href="#">Project 3</a>
+                </div>
+            </li>
+            <li><a href="#snake">Snake Game</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h1>About Me</h1>
+        <p>Hi, I'm SO1213! 👋  
+           This is my GitHub page. I like building projects, learning mechanical concepts, and having fun with web dev, and cyberpatriot competitor.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h1>Projects</h1>
+        <p>Check out some of my projects below (click the dropdown in the nav bar too!).</p>
+    </section>
+
+        <!-- Snake Game Section -->
+    <section id="snake" class="section">
+        <h1>Snake Game 🐍</h1>
+        <canvas id="snakeCanvas" width="400" height="400"></canvas>
+        <div class="snake-controls">
+            <button id="fullscreenBtn">Go Fullscreen</button>
+        </div>
+        <p>Use arrow keys to control the snake!</p>
+    </section>
+
+</body>
+</html>
